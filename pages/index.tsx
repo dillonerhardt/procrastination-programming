@@ -15,7 +15,11 @@ const Home: NextPage = () => {
       <header className="bg-gray-200 p-4">
         <span>Welcome to Procrastination Payer</span>
       </header>
-      <main></main>
+      <main>
+        <a className="text-blue-500 underline" href="/api/ob-auth">
+          Authenticate with bank
+        </a>
+      </main>
     </div>
   );
 };
